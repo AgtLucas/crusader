@@ -1,10 +1,11 @@
 import React, { Component, PropTypes } from 'react'
 import { render } from 'react-dom'
+import Card from './Card'
 
 class App extends Component {
   render () {
     return (
-      <div>Foo!</div>
+      <Card frontCard='Foo!' backCard='Bar!' />
     )
   }
 }
